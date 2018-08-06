@@ -1,0 +1,126 @@
+Hacking That
+Art Kay
+akawebdesign.com
+
+- Hackers are always attacking your application
+
+Methodology 
+    - you need perimission for hardware as well
+    - RECON
+    - Mapping
+    - Discovery
+    - Exploitation
+
+Recon
+    - significant amount of time spent in this stage
+    - days or weeks or even months can be spent
+    - everything connected to application
+    - Active - actively engaging the target
+    - Passive - research the target
+        - Do you want your ip address exposed?
+        - Names and emails of people related
+        - Social media
+        - Github
+        - Does he use same username?
+        - Registered domains for That
+    Active -
+        - Technologies used
+        - Known vulnerabilities
+        - word lists
+        - known users
+
+Tools 
+    - Kali Linux
+        - free linux distro for pen testing
+        - Industry standard
+        - all kinds of built in Tools
+        - Metasploit
+        - ReconNG
+        - 
+    - dnsenum - cli command
+        - dnsenum <url>
+        - you can take ip address to figure out where the domain lives
+            - GoDaddy
+    - dnsmap - cli command
+        - dnsmap <url>
+        - ftpthatconference.com
+        - staging.thatconference.com
+            - testing domain
+        - can tell they are using azure
+        - use browser web tools to get in a little further
+        - wapalyzer - extension that looks at page. Helps with identifying tech used
+        - retire.js - will tell you if javascript libraries are out of date
+        - shodan - will shop ip address of server
+            - host Names
+            - ports open
+    
+    - The better you know the app the better you will be
+    - Burp - allos you to run a man in the middle type of attack
+        - will be site mapes of tracking through your vm
+    - FoxyProxy
+    - The burp suite is a tool that every pen tester users
+        Community Edition
+        Pro version
+    
+    OWASP - 
+        - top 10
+        - hundreds of resources on attacks
+        - released every 2 years
+
+Art Kay - found 21 vulnerabilities
+    - *** not all are exploitable
+    - Modify book to give sql injeme type attacks
+    - normally exploits are a series of exploits all used to be malicious
+
+
+Good books --- REadm em
+The WEb Application Hacker's Handbook
+Mastering Kali Linux for WEb Penetration Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
