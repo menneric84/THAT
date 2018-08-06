@@ -82,4 +82,3 @@ They use gitlab and slack
 Can be more complex
 A lot of applications to manage and maintain
 Took about 2 years to make the transformation
-yes
