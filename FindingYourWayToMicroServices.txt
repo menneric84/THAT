@@ -1,0 +1,84 @@
+Finding Your Way to a Microservices Architecture
+Speaker Dana Hart - Northwestern Mutual
+
+Northwestern Mutual - overhauling to do Microservices
+
+Off prem - Go to cloud?
+
+Why convert from a Mono
+    - Characteristics of a Monlithic Application
+        - Large
+        - Big Releases
+        - Testing
+        - Scaling is difficult
+            - Multiple teams in one repo
+            - More downtime since updates are long
+            - Risky
+            - More transactions = more servers?
+        - "Frustration, although quite painful at times, is a very positvie and essential part of success"  --Bo Bennett
+    - Software Microarchitecture
+        - use services as buliding blocks to construct your system
+        
+What is a Microservices
+    - Collection of loosely couples services that implement business logic
+    - continuos delivery is possible
+    - UI hits many services 
+
+Reasons to convert
+    - Decomposes complexity
+    - Independant deployment and development
+    - Smaller more frequent deploys
+    - Lower risk
+
+How to Start buliding
+    - RESTful services
+    - Look at opportunities to refactor
+
+REST constraints
+    - Uniform interface
+    - Statless -No session or history
+    - Cacheable - performance enhancemnt
+    - Client-servers
+    - Code on Demand - you can send code back and forth (use cases)
+
+REST Review
+    - GET, POST, PUT, DELETE
+    - sensible resource names
+    - XML and JSON - prefer JSON
+    - Safety
+    - Recommended using an API Library
+    - JSON is easier to consume by javascript
+    - Fine grained resources - simple crud Application
+UI
+    - Split up by logical units
+    - SPA can use different tech stacks - Maintenance and support is maintained by team who implemented
+    - can be independant projects
+
+Deploy 
+    - Stitching and gluing together
+    - Booted up from infrastructure team  
+    - multiple service instances per host
+    - multiple instances per host vm container
+    - Serverless deployment
+        - AWS lambdas
+        - Google functions
+        - Azure
+    - service deployment platform
+        - Infrastructure as code
+    - NWM used node aws docker and kubernetes
+        - Can we ask her if cloud is necessary
+        - Less manual work
+
+API Gateway
+    - load balancing
+    - api should be secure
+    - Only service x can talk to service y 
+    - figure out api key
+
+NWM is capable of daily deploys
+They do use an environment approach
+They use gitlab and slack
+    - They use it as a change record system
+Can be more complex
+A lot of applications to manage and maintain
+Took about 2 years to make the transformation
