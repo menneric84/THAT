@@ -1,0 +1,40 @@
+Blockchain - Is it safe to eat?
+
+Was created to solve the distributed computing war
+
+Smart ethereum contracts
+
+People are excited about blockchain --- Why?
+    - Bitcoin
+    - Cryptocurrencies
+
+What is a blockchain?
+    - Basic data structure
+    - Blockchain is built on merkle trees
+    - merkle trees use a one-way hash
+        - gives us a unique number. However you cannot translate said number back
+        - MD5
+        - sha-1
+        - sha-2
+            - hashes
+            - checksum
+            - ssl certs
+    - You can hash two hashes to get a unique value
+    - This makes it very quick to see if there are differences
+    - This also works with the order of the data. If hashes are incorrect the chain breaks
+    - you can verify petabytes of data by simply comparing a 64 byte number
+    - you can also find fault very quickly
+        - petabyte in 9 operations
+
+Demo
+
+Extreme Computation
+    - Merkle trees aren't good enough
+    - Good for data syncing
+    - We need proof
+        - computationally expensive enough to cost electricity
+        - hashes always match the same set of bytes
+        - a single character will throw the hash off completely
+            - called salting the hash
+    - you can change hash values by appending data
+    - 

@@ -1,0 +1,41 @@
+Serverless Architecture
+Vinny Carpenter
+
+What is Serverless
+    - you don't need to maintain any physical servers 
+    - you know longer manage operating systems
+        - Platform as a servers
+            - Elastic Beanstalk
+    - only pay when your code is ran
+    - AWS Lambda
+    - First million hits are free
+FAAS - function as a service
+Deploy database as Serverless 
+    - Only pay for queries
+    - Event driven architecture - A database record can trigger a function
+OpenWhisk -- IBM project that's open source
+
+Benefits -
+    - Zero Admin
+    - Auto scaling
+    - High availability
+    - Pay as you use
+    - Increased velocity
+Cons -
+    - immature monitoring
+    - startup penalty
+    - local testability immature
+    - could feature pairty not there
+    - complex debugging
+    - Hacked - you don't have access to the machine - but you do have access to the logs
+
+Microsoft open sourced their whole serverless project
+
+Should we just go serverless
+
+Serverless Framework - 2015 of october 
+    - CLI tool using npm and node
+    - provider agnostic
+    - yaml config driven
+    - java supported out of the box
+    - Feel free to fork it
