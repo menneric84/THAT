@@ -1,0 +1,50 @@
+Getting started in Open Source
+Dahlby
+
+What is open source?
+    - Open source is software that can be freely accessed, used, changed, and shared by anyone
+    - legally accessed, used, changed, and shared by anyone.
+
+Freeware
+    - Free to used
+    - No Access to source
+    - Ex: browsers
+
+Why Open Source? (Business)
+    - Talent
+    - External Input
+    - Transparency
+    - Acceleration
+    - Security
+
+For Individuals
+    - Talent
+    - External Input
+    - Exploration
+    - Experimentation
+
+How to Open Source
+    - GitHub (24M users, 69M projects)
+    - Bitbucket (5M users)
+    - Launchpad (4M users)
+    - SourceForge (3.7M users)
+    - GitLab (100k users)
+        -GitLab is backed by Google
+
+What to work on?
+    - Project that you used
+    - Project you're intersted in
+    - Project that needs help
+    - Your projects
+
+Who needs help?
+    - Github search: up-for-grabs | first-timers-only
+    - up-for-grabs.net
+    - Your first PR 
+
+Assess the Project
+    - Look at open/closed issues
+    - Comments
+    - Forks
+    - Status Checks
+    
