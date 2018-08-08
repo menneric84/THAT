@@ -47,4 +47,21 @@ Assess the Project
     - Comments
     - Forks
     - Status Checks
-    
+
+What do you want to do?
+    - Improve docs
+    - Not questions while you are starting
+    - Propose improvements if you are a user of the software
+
+Report and/or fix a bug
+    - SEARCH and make sure it doesn't already exist
+    - link related tickets
+    - Open a Pull Request as soon as you have progress
+        - The solution doesn't need to be complete
+
+Propose a feature
+    - Check if it exists
+    - Unless you need the feature - wait for it for feedback
+    - Add WIP to title
+    - Guy recommends always working on a branch
+    - Small commits
