@@ -1,0 +1,48 @@
+SOLID Principles
+Chris Powers
+Sprout Social
+Author with clean coders
+
+S - Single Responsibility
+    - Keep modules small
+    - Why would this module change
+    - Who would ask you to make a change
+        - if they are different it should probably be split
+    - if i pulled a function out will the class remain the same?
+        - if not it can probably be removed
+
+O - Open Closed Principle
+    - Richard Meyer
+    - Software should be open for extension but closed modification
+        - classes should be able to have things added, but they shouldn't be changed
+    - Use abstractions to create plugin architectures
+    - Any time you see a list of if else logic you can assume it violates this Principle
+    - If you have to edit an old module
+    - Hotspots for code churn
+
+L - Liskov Substitution
+    - Barbara Liskov
+    - The least understood
+    - Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program
+    - Don't break your contracts
+    - Don't override things in the subclass that break the base class
+    - IF you are type checking you are probably violating this Principle
+    - You can add new functionality but don't break old functionality
+
+I - Interface Segregation Principle
+    - Bob Martin
+    - Many client specific interfaces are better than one general-purpose interface.
+    - Keep your modules small again
+        - Again...
+    - Split out segmented sections
+    - Your clients only use a subset of methods
+    - There is little or no intersectionbetween the methods used by different clients
+    - You group methods together, maybe with comments.
+
+D - Dependency Inversion Principle
+    - Bob Martin
+    - Separate business logic from implementation details!
+    - No clear distincition between high level policy and low-level implementation details
+    - Changes to dependecies whouldn't change
+
+    

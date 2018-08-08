@@ -1,0 +1,31 @@
+Improving Code Quality with Static Analyzers
+Jim Wooley
+
+Code quality - Compilation is not enough
+Have a company Style Guide
+    - Outside of the standard Guide
+
+Solutions should be customizable
+
+This allows peer reviews to be business domain focused instead of style oriented
+
+Trend analysis is important as well
+
+Static analysis - Static program analysis is the analysis of computer software that is performed without actually executing the program
+
+Code Complete - Steve McCanal (or something)
+
+Look at Wikipedia for static analysis tools
+
+Tools can recommend best practices
+
+Recognized modern syntax
+
+JSLint
+SonarQube/SonarLint ***He Recommended
+Resharper
+Code Rush
+
+Visual studio has a built in static Analyzer
+
+
